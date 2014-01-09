@@ -1,0 +1,64 @@
+#payment-blk{margin:0;	width: 445px;}
+#payment-blk ul{	list-style: none;	list-style-position: outside;}
+#payment-blk ul.tab li{	float: left;	margin-right: 5px;	margin-bottom: -1px;}
+#payment-blk ul.tab li{font-weight: 700;width:104px;height:36px;line-height:28px;display: block;
+	padding:0;	background: #efefef;margin-bottom: -8px;position: relative;	color: #000;
+	cursor: pointer;background:url(../images/payment/tab.gif) 0 0 no-repeat; text-align:center}
+#payment-blk ul.tab li.active{background: #fff;margin-bottom: -8px;color: #fff;background:url(../images/payment/tab-o.gif) 0 0 no-repeat;}
+/******* /MENU *******/
+/******* CONTENT *******/
+.py-content{float:left;margin:0; padding:0; width:443px;border: 1px solid #d0ccc9;}
+.py-content.debit {margin:0;padding:18px 10px 10px; width:423px;}
+.py-content.debit .debit-blk {float:left; margin:0; padding:5px 0; width:423px;}
+.py-content.debit .debit-blk label {float:left; margin-right:5px;padding: 0; width:86px; font: bold 12px arial; color:#000; text-align:right;}
+.py-content.debit .debit-blk cite {float:left; margin-right:10px;padding:0; width:10px; font: normal 12px arial; color:#000;}
+.py-content.debit .debit-blk span{float:left; margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left}
+.py-content.debit .debit-blk font {margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left; text-decoration:none}
+.py-content.debit .debit-blk font a {color:#000;text-decoration:none}
+.py-content.debit .debit-blk font a:hover {color:#0b4c95;text-decoration:underline}
+
+.py-content.debit .debit-blk span strong{float:left; margin:0; padding:0; font:bold 14px arial}
+.py-content.debit .debit-blk dfn {float:left; margin:0; padding:0; width:400px; height:auto; font: normal 10px arial; color:#000; text-align:center; display:inline;}
+.py-content.debit .debit-blk span input{float:left;padding: 0 0 0 3px; border:1px solid #231f20; width:181px; height:18px; font: normal 12px arial; color: #0099FF; text-align:left}
+.py-content.debit .debit-blk span input.cvv {float:left;padding: 0 0 0 3px;  border:1px solid #231f20; width:85px; height:18px; font: normal 12px arial; color: #0099FF; text-align:left}
+.py-content.debit .debit-blk span checkbox{float:left; margin:0; padding:0; width:20px; }
+
+.py-content.debit .debit-blk span select {float:left;padding:0; width:184px; font: normal 12px arial; color:#000}
+.py-content.debit .debit-blk span select.month {float:left; margin-right:14px;padding:0; width:98px; font: normal 12px arial; color:#000}
+.py-content.debit .debit-blk span select.year {float:left;padding:0; width:74px; font: normal 12px arial; color:#000}
+
+
+.py-content.credit {margin:0; padding:18px 10px 10px; width:423px;}
+.py-content.credit .credit-blk {float:left; margin:0; padding:5px 0; width:423px;}
+.py-content.credit .credit-blk label {float:left; margin-right:5px;padding: 0; width:86px; font: bold 12px arial; color:#000; text-align:right;}
+.py-content.credit .credit-blk cite {float:left; margin-right:10px;padding:0; width:10px; font: normal 12px arial; color:#000;}
+.py-content.credit .credit-blk span{float:left; margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left}
+.py-content.credit .credit-blk font {margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left; text-decoration:none}
+.py-content.credit .credit-blk font a {color:#000;text-decoration:none}
+.py-content.credit .credit-blk font a:hover {color:#0b4c95;text-decoration:underline}
+
+.py-content.credit .credit-blk span strong{float:left; margin:0; padding:0; font:bold 14px arial}
+.py-content.credit .credit-blk  dfn {float:left; margin:0; padding:0; width:400px; height:auto; font: normal 10px arial; color:#000; text-align:center; display:inline}
+.py-content.credit .credit-blk span input{float:left;padding: 0 0 0 3px; border:1px solid #231f20; width:181px; height:18px; font: normal 12px arial; color: #0099FF; text-align:left}
+.py-content.credit .credit-blk span input.cvv {float:left;padding: 0 0 0 3px;  border:1px solid #231f20; width:85px; height:18px; font: normal 12px arial; color: #0099FF; text-align:left}
+.py-content.credit .credit-blk  checkbox{float:left; margin:0; padding:0; width:20px; }
+.py-content.credit .credit-blk  .radio {float:left; margin:0 3px 0 6px; padding:0; width:20px;}
+
+.py-content.credit .credit-blk span select {float:left;padding:0; width:184px; font: normal 12px arial; color:#000}
+.py-content.credit .credit-blk span select.month {float:left; margin-right:14px;padding:0; width:98px; font: normal 12px arial; color:#000}
+.py-content.credit .credit-blk span select.year {float:left;padding:0; width:74px; font: normal 12px arial; color:#000}
+
+.py-content.net {margin:0; padding:18px 10px 10px; width:423px;}
+.py-content.net .net-blk {float:left; margin:0; padding:5px 0; width:423px;}
+.py-content.net .net-blk label {float:left; margin-right:5px;padding: 0; width:86px; font: bold 12px arial; color:#000; text-align:right;}
+.py-content.net .net-blk cite {float:left; margin-right:10px;padding:0; width:10px; font: normal 12px arial; color:#000;}
+.py-content.net .net-blk span{float:left; margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left}
+.py-content.net .net-blk font {margin:0; padding:0; width:312px; font: normal 11px arial; color:#000; text-align:left; text-decoration:none}
+.py-content.net .net-blk font a {color:#000;text-decoration:none}
+.py-content.net .net-blk font a:hover {color:#0b4c95;text-decoration:underline}
+.py-content.net .net-blk span strong{float:left; margin:0; padding:0; font:bold 14px arial}
+.py-content.net .net-blk  checkbox{float:left; margin:0; padding:0; width:20px; }
+
+.py-content.net .net-blk1 p {margin:0; padding:0 0 5px 10px; width:413px; font: bold 12px arial; color:#000; text-align:left; text-decoration:none}
+.py-content.net .net-blk1 select {float:left;margin:0 0 25px 10px; padding:0; width:184px; font: normal 12px arial; color:#000}
+

@@ -1,0 +1,14 @@
+.book-now{width:649px; height:145px; margin:0 auto; padding: 5px 12px 10px 0;  background-color:#FFFFFF; border:1px solid #e5e5e5}
+.book-now_blk {width:649px; height:auto; margin:0; padding:0; float:left}
+.book-now_blk h1{width:535px; height:30px; margin:0; padding-left:26px; float:left; font:normal 18px Arial; color:#b01236; text-align:left; background:url(../images/code_bk.gif) 0 27px repeat-x}
+.book-now_blk .btn {width:88px; margin:0; padding:0; float:left; text-align:right}
+.book-now_blk2 {width:649px; height:auto; margin-top:20px; padding:0; float:left}
+
+.book-now_blk2 .select_blk {width:109px; height:auto; margin:0 6px 0 26px; padding:0; float:left;}
+.book-now_blk2 .select_blk .sel-bx {width:109px; height:auto; margin:0; padding:0; font:normal 12px Arial; color:#000; float:left;}
+
+.book-now_blk2 .select_blk h2 {width:auto; height:auto; margin:0; padding:0 0 2px 2px; float:left; font:bold 12px Arial; color:#0e3d7f;}
+
+#pop_div{opacity:0.6;filter:alpha(opacity=80); background-color:#000000;position:absolute;width:100%; top:0;left:0px;z-index:100001;text-align:center;}
+#html_pop{text-align:center;position:absolute;width:100%;left:0px;top:230px;z-index:100002;}
+.IProceedSeat{ float:right;}

@@ -1,0 +1,60 @@
+	
+.mainBanner{float:left;margin-right:18px; padding:15px 10px; width:664px; height:auto; background: url(../images/main-banner/bg.gif) 0 0 repeat-x;  }
+
+/* Easy Slider */
+	 #slider2 {
+	margin: 0 0 0 40px;
+	padding:0;
+	width:600px;
+	
+	}
+ #slider2 ul{
+	margin:0;
+	padding:0;
+	width:auto;
+	
+	}
+  #slider2 li{
+	float:left;
+	margin:0; padding:0;
+	width:580px;
+	
+	text-align:left;
+		list-style:none;
+	}
+  #slider2 li img{
+  margin-right:20px;
+  
+	}
+  #slider2 li img.last{
+  margin:0px;
+ 
+	}
+	p#controls, p#controls2{
+		margin:0;
+		position:relative;
+				} 
+	
+	#prevBtn, #nextBtn, #prevBtn2, #nextBtn2{ 
+		display:block;
+		margin:0;
+		overflow:hidden;
+		text-indent:-8000px;		
+		width:30px;
+				position:absolute;
+				height:77px;
+		left:6px;
+		top:-160px;
+		}	
+	#nextBtn, #nextBtn2{ 
+		left:638px;
+		}														
+	#prevBtn a, #nextBtn a, #prevBtn2 a, #nextBtn2 a{  
+		display:block;
+		width:30px;
+		height:77px;
+		background:url(../images/main-banner/aroow-back.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #nextBtn2 a{ 
+		background:url(../images/main-banner/aroow-front.gif) no-repeat 0 0;	
+		}					

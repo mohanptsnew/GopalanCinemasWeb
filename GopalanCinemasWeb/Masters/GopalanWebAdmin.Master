@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GopalanWebAdmin.master.cs" Inherits="GopalanCinemasWeb.Masters.GopalanWebAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gopalan Cinemas - Admin</title>
+    <link href="../Styles/styleadmin.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div class="container_out">
+  <div class="container_in">
+    <div class="bdy_content">
+
+      <div class="menu" style="text-align:center">
+       <div style="width:300px; float:left;">&nbsp;</div> 
+      <div class="logo">&nbsp;</div>
+       <%-- <div class="home"><a id="aHome" href="index.aspx"></a></div>
+        <div class="about-us"><a id="aAbout" href="about-us.aspx"></a></div>
+        <div class="schedules"><a id="aSchedule" href="schedules.aspx"></a></div>
+        <div class="logo">&nbsp;</div>
+        <div class="movies"><a href="movies.aspx" id="aMovie">Movies</a></div>
+        <div class="press-room"><a href="#" id="aPress">Press Room</a></div>
+        <div class="contact-us"><a href="contact-us.aspx" id="aContact">Contact Us</a></div>--%>
+      </div>
+      <div class="content_in" style="height:500px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      
+      </div><!-- end content -->
+    </div>
+   <div class="ftr">
+    <div class="txt" style="margin:6px 15px 0px -30px; width:300px;">All rights reserved. Copyright Gopalan Cinemas 2011</div>
+    </div>
+  </div>
+</div>
+    </form>
+</body>
+</html>

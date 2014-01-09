@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function openseasonpass()
+        {
+            window.scrollTo(0, 0);
+            document.getElementById("opaque_seasonpass").style.display = '';
+            document.getElementById("htmlpopup_seasonpass").style.display = 'block';
+        }
+        function closeseasonhtmlpop() {
+            document.getElementById("opaque_seasonpass").style.display = 'none';
+            document.getElementById("htmlpopup_seasonpass").style.display = 'none';
+        }
+    </script>
+    <style>
+#opaque_seasonpass
+{
+position:absolute;
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+z-index:100;
+background-color:#000000;
+opacity:0.75;
+filter:alpha(opacity=75);
+}
+#htmlpopup_seasonpass
+{
+position:absolute;
+left:200px;
+top:-150px;
+width:100%;
+height:100%;
+z-index:103;
+}
+   
+    </style>
+</head>
+<body>
+<style type="text/css">
+.coupon_blk_season{width:650px; height:420px; float:left; position:relative; background:#030e61 url(images/coupon_bg.jpg) left top repeat-x; padding:18px 14px 12px;}
+.fl_season{float:left;}
+.fr_season{float:right;}
+.top_season{width:650px; float:left;}
+.hdg_season{width:650px; float:left; text-align:center; padding:10px 0 0;}
+.step1_season{width:650px; float:left; border-bottom:1px solid #4e5697;font:bold 12px Arial, Helvetica, sans-serif; padding:5px 0;}
+.step1_season font{color:#e8a522;}
+.step1_season label{color:#ffffff;}
+.step1_season span{color:#999999;}
+.step1_season cite{color:#999999;width:126px; height:20px; padding:0 15px 0 10px; font-style:normal;}
+.step1_season cite input{width:123px; height:18px; border:1px solid #999;}
+.step1_season p dfn{color:#999999;width:79px; height:27px; padding-left:10px;}
+.step1_season p dfn input{vertical-align:middle;}
+.step2_season{width:650px; float:left; font:bold 12px Arial, Helvetica, sans-serif; padding:5px 0;color:White}
+.step2_season tr td{padding:5px 0 0 0;}
+.step2_season font{color:#e8a522;}
+.step2_season label{color:#ffffff;}
+.step2_season cite select{width:97px; height:18px; border:1px solid #999;}
+.step2_season dfn{ padding-right:10px; margin-top:25px; float:left;}
+ .popblk_cl{position:absolute;right:325px; top:5px;border:0px}
+.popblk_cl_season{position:absolute;right:-20px; top:-25px;border:0px}
+</style>
+    <div id="opaque_seasonpass" style="display:none;"></div>
+
+    <div id="htmlpopup_seasonpass" style="display:none;margin-top:70px;">
+
+    <div class="coupon_blk_season" style="text-align:left">
+	<div class="top_season"><img src="images/pvr_logo.png" alt="" /><img src="images/seapass_3d.png" alt="" class="fr_season" /></div>
+    <div class="hdg_season"><img src="images/season_hdg.png" alt="" style="text-align:center" /><br/><br/></div>
+    <div class="step1_season">
+   	  <p><font>Step 1:</font>  <label> Please give us your details</label> <font style="text-decoration:underline;">as entered while buying the Season Pass</font><br/><br/></p>
+
+        <p><span>E-mail address:</span><cite>
+        </cite> <span>Mobile number:</span><cite></cite><span>Eg: 98100xxxxx</span><br/><br/></p>        
+    </div>
+    <div class="step1_season">
+    	<p><font>Step 2:</font>  <label>Please enter your Season Pass Code</label><cite>
+        </cite><span>(10 digit code)</span><dfn><input type="image" src="images/validate.gif" alt="" onclick="validateseasonpass(); return false;"/></dfn><br/></p>            
+    </div>
+    <div class="step2_season" id="seasondisplay" style="display:none;">
+
+   	<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><font>Your Season Pass balance:</font></td>
+    <td><font>Your current order:</font></td>
+    <td><font>Your balance after this transaction:</font></td>
+  </tr>
+  <tr>
+
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+</table>
+	 <p><font style="width:360px; float:left;font-size:14px;">How would you like to settle the Balance? </font>  <cite><select name=""><option>Credit Cards</option><option>Net Banking</option><option>American Express</option></select> </cite> </p>
+
+	
+       	<table width="300" border="0" cellspacing="0" cellpadding="0" style="width:300px; font-size:12px; float:left;">
+  <tr id="trTicketFee">
+    <td><label>Ticket Fee</label></td>
+    <td><label></label></td>
+    <td><label></label></td>
+  </tr>
+  <tr>
+    <td><label>Convenience Fee</label></td>
+
+    <td><label></label></td>
+    <td><label></label></td>
+  </tr>
+  <tr>
+    <td><font>TOTAL</font></td>
+    <td><font>&nbsp;</font></td>
+    <td><font></font></td>
+
+  </tr>  
+</table>
+   <p style="float:left; margin-left:100px; display:inline;"><dfn>
+   </dfn><dfn><img src="images/cancel.gif" onclick="return closeseasonhtmlpop(); return false;" /></dfn></p>
+  </div>
+    <div id="seasonerrormessage" style="display:none;">
+  <p><font style="width:360px; color:White; float:left;font-size:14px;">Please enter valid details</font></p>
+  </div>
+
+    <div class="popblk_cl_season">
+      <a href="#"><img src="../images/events/Close-button.png" alt="Close" style="cursor:pointer" onclick="return closeseasonhtmlpop();"  /></a>
+    </div>
+</div>
+</div>
+</body>
+</html>

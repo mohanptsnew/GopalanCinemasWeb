@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopalanCinemasWeb", "GopalanCinemasWeb\GopalanCinemasWeb.csproj", "{610484DF-9D84-43FE-8886-5A0F3B9CB7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopalanCinemasBL", "GopalanCinemasBL\GopalanCinemasBL.csproj", "{EA56F9C0-9AC3-476F-BDD6-00F064547ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopalanCinemasDL", "GopalanCinemasDL\GopalanCinemasDL.csproj", "{6E04211E-C684-4439-8C40-649B8FABB321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GopalanCinemasEntities", "GopalanCinemasEntities\GopalanCinemasEntities.csproj", "{2EA39C22-8CB5-4BA1-B997-464C0425FF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610484DF-9D84-43FE-8886-5A0F3B9CB7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610484DF-9D84-43FE-8886-5A0F3B9CB7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610484DF-9D84-43FE-8886-5A0F3B9CB7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610484DF-9D84-43FE-8886-5A0F3B9CB7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA56F9C0-9AC3-476F-BDD6-00F064547ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA56F9C0-9AC3-476F-BDD6-00F064547ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA56F9C0-9AC3-476F-BDD6-00F064547ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA56F9C0-9AC3-476F-BDD6-00F064547ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E04211E-C684-4439-8C40-649B8FABB321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E04211E-C684-4439-8C40-649B8FABB321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E04211E-C684-4439-8C40-649B8FABB321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E04211E-C684-4439-8C40-649B8FABB321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA39C22-8CB5-4BA1-B997-464C0425FF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA39C22-8CB5-4BA1-B997-464C0425FF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA39C22-8CB5-4BA1-B997-464C0425FF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA39C22-8CB5-4BA1-B997-464C0425FF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

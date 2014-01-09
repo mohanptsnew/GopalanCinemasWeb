@@ -246,7 +246,7 @@ namespace GopalanCinemasDL.DL
             finally
             {
                 cmd.Dispose();
-                con.Close();
+                con.Close();//test
             }
         }
         #endregion
